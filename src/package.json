@@ -4,7 +4,9 @@
   "description": "File transfer system on hyperledger fabric",
   "main": "registerAdmin.js",
   "scripts": {
-    "test": "node registerAdmin.js"
+    "test": "node registerAdmin.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Akash",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "ipfs-http-client": "^28.1.1",
     "os": "^0.1.1",
     "path": "^0.12.7",
-    "util": "^0.11.1"
-  }
+    "util": "^0.11.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
