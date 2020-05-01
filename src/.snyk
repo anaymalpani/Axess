@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ipfs-http-client > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > grpc > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > restify > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > restify > restify-errors > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > rewire > eslint > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > ipld-dag-cbor > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > ipld-dag-pb > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > rewire > eslint > inquirer > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > rewire > eslint > table > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > ipld-dag-cbor > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > ipld-dag-pb > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - fabric-client > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T07:01:43.264Z'
